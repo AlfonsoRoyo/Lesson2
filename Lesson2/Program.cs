@@ -20,7 +20,14 @@ namespace Lesson2
             return v1 + v2 +v3 ;
 
         }
+        static int CalculaMultiplicacion(int v10, int v20, int v30)
+        {
+            return v10 * v20 * v30;
+        }
+           
 
+            
+            
         static int Main (string[] args)
       {
             // Inicialització de variables
@@ -46,8 +53,12 @@ namespace Lesson2
             Console.WriteLine("hola");
         
             int resultat = CalculaSuma (Value1,Value2,Value3);
+            int resultat2 = CalculaMultiplicacion(Value1,Value2,Value3);
+
 
             Console.WriteLine("el resultat es:" + resultat);
+
+            Console.WriteLine("el resultat es:" + resultat2);
 
             Console.ReadLine();
             return 0;
